@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+
+float n1,n2;
+printf ("Qual o primeiro numero");
+
+scanf ("%f",&n1);
+printf ("Qual o segundo numero");
+scanf ("%f",&n2);
+
+float Dif= n1 - n2;
+printf ("A difrerença e de %f",Dif);
+ return 0;
+ }
