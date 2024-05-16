@@ -1,0 +1,25 @@
+Atividade 02
+#include <stdio.h>
+
+int main() {
+
+float n1, n2, n3, n4, total;
+
+printf("informe a 1º nota:");
+scanf("%f", &n1);
+
+printf("informe a 2º nota:");
+scanf("%f", &n2);
+
+printf("informe a 3º nota:");
+scanf("%f", &n3);
+
+printf("informe a 4º nota:");
+scanf("%f", &n4);
+
+total = (n1 + n2 + n3 + n4) / 4;
+
+printf("A media do aluno e: %.2f\n", total) ;
+
+ return 0;
+ }
