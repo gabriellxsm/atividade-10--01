@@ -1,0 +1,16 @@
+atividade 06
+#include <stdio.h>
+
+int main() {
+
+float peso;
+printf ("Qual o peso da pessoa");
+
+scanf ("%f",&peso);
+
+
+
+float gramas= peso*1000;
+printf ("O peso em gramas e %f",gramas);
+ return 0;
+ }
