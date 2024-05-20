@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main () {	
+ float peso;
+ float gramas;
+
+printf("Digite um valor");
+scanf("%f",&peso);
+gramas - peso*45,00;
+printf("O valor sera: %f",gramas);
+
+
+return 0;
+
+
+
+
+}
