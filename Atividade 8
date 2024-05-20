@@ -1,0 +1,17 @@
+
+int main () {	
+ float Fahrenheit;
+ float total;
+
+printf("Digite um valor");
+scanf("%f",&Fahrenheit);
+total = (Fahrenheit - 32)/1.8;
+printf("O valor em graus celcius: %f",total);
+
+
+return 0;
+
+
+
+
+}
