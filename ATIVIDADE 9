@@ -1,0 +1,19 @@
+int main() {
+    double raio, diametro, comprimento, area;
+
+    // Entrada de dados
+    cout << "Digite o valor do raio da circunferência: ";
+    cin >> raio;
+
+    // Processamento
+    diametro = 2 * raio;
+    comprimento = 2 * M_PI * raio; // M_PI é uma constante definida em <cmath> para o valor de pi
+    area = M_PI * pow(raio, 2); // pow(x, y) calcula x elevado à potência y
+
+    // Saída de dados
+    cout << "Diâmetro: " << diametro << endl;
+    cout << "Comprimento: " << comprimento << endl;
+    cout << "Área: " << area << endl;
+
+    return 0;
+}
